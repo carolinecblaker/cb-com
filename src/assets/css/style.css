@@ -1,0 +1,157 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'Cherry Grove';
+	font-weight: 400; 
+	src: url('../fonts/CherryGrove-Regular.otf') format('opentype');
+  } 
+@font-face {
+  font-family: 'Zilla Slab';
+  font-weight: 400; 
+  src: url('../fonts/zilla-slab/ZillaSlab-Regular.otf') format('opentype');
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-weight: 400;
+  font-style:italic;
+  src: url('../fonts/zilla-slab/ZillaSlab-RegularItalic.otf') format('opentype');
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-weight: 500;
+  src: url("../fonts/zilla-slab/ZillaSlab-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-weight: 600;
+  src: url("../fonts/zilla-slab/ZillaSlab-SemiBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-weight: 700;
+  src: url("../fonts/zilla-slab/ZillaSlab-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "Zilla Slab";
+  font-weight: 700;
+  font-style:italic;
+  src: url("../fonts/zilla-slab/ZillaSlab-BoldItalic.otf") format("opentype");
+}
+@font-face {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  src: url("../fonts/libre-franklin/librefranklin-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-style:italic;
+  src: url("../fonts/libre-franklin/librefranklin-italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Libre Franklin";
+  font-weight: 500;
+  src: url("../fonts/libre-franklin/librefranklin-medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Libre Franklin";
+  font-weight: 500;
+  font-style:italic;
+  src: url("../fonts/libre-franklin/librefranklin-mediumitalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Libre Franklin";
+  font-weight: 600;
+  src: url("../fonts/libre-franklin/librefranklin-semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Libre Franklin";
+  font-weight: 600;
+  font-style:italic;
+  src: url("../fonts/libre-franklin/librefranklin-semibolditalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Libre Franklin";
+  font-weight: 700;
+  src: url("../fonts/libre-franklin/librefranklin-bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Libre Franklin";
+  font-weight: 700;
+  font-style:italic;
+  src: url("../fonts/libre-franklin/librefranklin-bolditalic.ttf") format("truetype");
+}
+
+@theme {
+	--default-font-family: 'Libre Franklin', var(--font-sans);
+	--font-script: "Cherry Grove", 'script';
+	--font-display: "Zilla Slab", 'serif';
+  }
+
+
+hr {border-width:0;}
+
+.text-tiny {
+	font-size:12px;
+	line-height:16px;
+
+}
+.text-small{
+	font-size:14px;
+	line-height:24px;
+
+}
+.text-large{
+	font-size:18px;
+	line-height:32px;
+
+}
+.heading-xs{
+	font-size:21px;
+	line-height:32px;
+	font-weight:700;
+	/* @apply font-display; */
+}
+.heading-s{
+	font-size:24px;
+	line-height:40px;
+	font-weight:700;
+	/* @apply font-display; */
+}
+.heading{
+	font-size:28px;
+	line-height:48px;
+	font-weight:700;
+	/* @apply font-display; */
+}
+.heading-m{
+	font-size:32px;
+	line-height:56px;
+	font-weight:700;
+	/* @apply font-display; */
+}
+.heading-l{
+	font-size:36px;
+	line-height:64px;
+	font-weight:700;
+	/* @apply font-display; */
+}
+.heading-xl{
+	font-size:48px;
+	line-height:72px;
+	font-weight:700;
+	/* @apply font-display; */
+}
+.heading-d{
+	font-size:60px;
+	line-height:80px;
+	font-weight:400;
+	/* @apply font-script; */
+}
+.heading-dxl{
+	font-size:72px;
+	line-height:96px;
+	font-weight:400;
+	/* @apply font-display; */
+}
