@@ -85,6 +85,6 @@ module.exports = {
     watchFiles: ['src/**/*.php', 'src/*.html', 'src/assets/**/*.css'],
     open: true,
     hot: true,
-    port:"8008"
+    port:"8009"
   }
 }
